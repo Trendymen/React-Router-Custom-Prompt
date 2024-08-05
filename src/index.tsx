@@ -7,7 +7,7 @@ import "antd/dist/antd.min.css";
 import "./styles/index.scss";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/React-Router-Custom-Prompt">
     <App />
   </BrowserRouter>,
   document.getElementById("root")
